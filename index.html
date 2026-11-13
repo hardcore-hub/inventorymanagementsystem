@@ -1,0 +1,76 @@
+ ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SYSTEM TITLE -->
+    <title>IMS|Dashboard</title>
+
+    <!-- TESDA OFFICIAL FAVICON -->
+    <link rel="icon"
+          type="image/png"
+          href="https://www.tesda.gov.ph/Content/images/logos/TESDA%20Logo%20official.png">
+
+    <!-- APPLE / MOBILE ICON -->
+    <link rel="apple-touch-icon"
+          href="https://www.tesda.gov.ph/Content/images/logos/TESDA%20Logo%20official.png">
+
+    <meta name="theme-color" content="#123b7a">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #f5f7fb;
+        }
+
+        body {
+            position: fixed;
+            inset: 0;
+        }
+
+        .app-frame {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+            background: #f5f7fb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+        IM SYSTEM
+        Apps Script embedded inside iframe.
+        Browser URL remains:
+        https://github.com/hardcore-hub/inventorymanagementsystem
+    -->
+
+    <iframe
+        class="app-frame"
+        src="https://script.google.com/macros/s/AKfycbxtRp9aaUwARgsnFlhs-WVymT1q2XVJYZJHb2-8V01l4QIBSanT4n2_kk0T4qtAHjZ1/exec"
+        title="FAR System | Dashboard"
+        allow="fullscreen"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
+```
